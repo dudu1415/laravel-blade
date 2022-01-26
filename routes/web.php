@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/dbz', function () {
-    $energy = '8001';
+    $energy = '8000';
     return view('dbz',compact('energy'));
 });
