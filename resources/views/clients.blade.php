@@ -8,7 +8,7 @@
 </head>
 <body>
     @foreach ($names as $name)
-    <H1>{{$name}}</H1>
+    <h2>{{$name}}</h2>
     @endforeach
 </body>
 </html>
